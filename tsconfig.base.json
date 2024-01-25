@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@myorg/ui": ["packages/ui/src/index.ts"]
+      "@ui": ["packages/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
