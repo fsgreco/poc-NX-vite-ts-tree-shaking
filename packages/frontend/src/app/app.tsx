@@ -1,17 +1,11 @@
-import styled from 'styled-components';
-
-import NxWelcome from './nx-welcome';
+import { MyButton, MyProgress } from '@ui';
 
 import { Route, Routes, Link } from 'react-router-dom';
 
-const StyledApp = styled.div`
-  // Your style here
-`;
-
 export function App() {
   return (
-    <StyledApp>
-      <NxWelcome title="frontend" />
+    <div>
+			<MyButton label="HELLO FRIEND" />
 
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
@@ -49,7 +43,7 @@ export function App() {
         />
       </Routes>
       {/* END: routes */}
-    </StyledApp>
+    </div>
   );
 }
 
