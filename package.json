@@ -4,13 +4,16 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
+	"type": "module",
   "dependencies": {
+    "@antv/g6": "^4.8.24",
     "@swc/helpers": "~0.5.2",
     "antd": "^5.13.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-is": "18.2.0",
     "react-router-dom": "6.11.2",
+    "rollup-plugin-pure": "^0.2.1",
     "styled-components": "5.3.6"
   },
   "devDependencies": {

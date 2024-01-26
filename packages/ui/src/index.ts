@@ -3,3 +3,7 @@ export * from './lib/my-datepicker/my-datepicker';
 export * from './lib/my-progress/my-progress';
 export * from './lib/my-button/my-button';
 export * from './lib/ui';
+
+export * from './hooks/use-scenario-graph/use-scenario-graph';
+export * from './lib/scenario-graph/scenario-graph';
+
